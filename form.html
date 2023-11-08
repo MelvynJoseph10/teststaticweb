@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  </head>
+  <body>
+      <h1>Registration Form</h1>
+            <form action="connect.php" method="post">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required/>
+              
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName"required/>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"required/>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"required/>
+
+                <label for="number">Phone Number</label>
+                <input type="number" id="number" name="number" required/>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <label>
+                  <input type="checkbox" name="terms">
+                  I agree to the terms and conditions
+                </label>
+                
+                <p>
+                <input type="submit" name = "submit" value="submit" >
+                <input type="Reset">
+                </p>
+                
+            </form>
+            <medium>&copy; Alberta Vacation Company</medium>
+  </body>
+</html>
